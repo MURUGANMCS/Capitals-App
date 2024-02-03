@@ -1,0 +1,82 @@
+/* Write your CSS here */
+* {
+  font-family: roboto;
+}
+.app-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.card-container {
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 20px;
+  min-width: 70vw;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.heading {
+  color: #323f4b;
+  font-size: 25px;
+}
+
+.capital-details {
+  font-size: 13px;
+}
+.option-items {
+  font-weight: bold;
+}
+.select-class {
+  font-weight: bold;
+  margin-right: 10px;
+  outline: none;
+  padding: 5px;
+}
+.capital {
+  font-weight: bold;
+  font-size: 25px;
+  align-self: flex-start;
+}
+
+.option-container{
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 567px) {
+  .heading {
+    font-size: 30px;
+  }
+  .select-class {
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+  }
+
+  .capital-details {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .select-class {
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+  }
+
+  .capital-details {
+    font-size: 25px;
+  }
+}
